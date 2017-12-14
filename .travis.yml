@@ -1,0 +1,23 @@
+# Install Hugo
+addons:
+  apt:
+    packages:
+      - hugo
+
+# Ensure we clean any old files
+install:
+  - rm -rf public
+
+# Build the website
+script:
+  - cd src
+  - hugo
+
+# Deploy to GitHub Pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $SERGE_GH_TOKEN
+  on:
+    branch: master
