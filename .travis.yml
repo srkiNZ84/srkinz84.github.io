@@ -8,8 +8,8 @@ install:
 # Build the website
 script:
   - cd src
-  - hugo version
-  - hugo
+  - ./hugo version
+  - ./hugo
 
 # Deploy to GitHub Pages
 deploy:
