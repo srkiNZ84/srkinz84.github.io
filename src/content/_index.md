@@ -23,4 +23,4 @@ In order to do this, I usually try to ensure that we have good feedback loops, s
 
 # About this site
 
-This site was generated using [Hugo](https://gohugo.io/) and I'm hoping to get it auto-deploying using [TravisCI](https://travis-ci.org/) at which point I might make a blog post about it.
+This site was generated using [Hugo](https://gohugo.io/) and is being auto deployed from "master" using [TravisCI](https://travis-ci.org/) as can be seen [here](https://travis-ci.org/srkiNZ84/srkinz84.github.io).
