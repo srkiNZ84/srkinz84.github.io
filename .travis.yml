@@ -16,6 +16,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: public
+  target_branch: master
   github_token: $SERGE_GH_TOKEN
   on:
     branch: master
