@@ -9,6 +9,9 @@ script:
   - cd src
   - ./hugo version
   - ./hugo
+  - mkdir public/src
+  - shopt -s extglob
+  - cp -R ./!(public) public/src/
 
 # Deploy to GitHub Pages
 deploy:
