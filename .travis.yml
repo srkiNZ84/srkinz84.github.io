@@ -20,4 +20,4 @@ deploy:
   local_dir: public
   github_token: $SERGE_GH_TOKEN
   on:
-    branch: gh-pages
+    branch: master
