@@ -11,16 +11,22 @@ are operable (configurable, monitorable, log useful messages, scalable, resilien
 
 In order to do this, I usually try to ensure that we have good feedback loops, specifically:
 
-* Ensure that the CI builds are triggering off of every commit (know Bamboo, GoCD, Jenkins etc...)
-* Ensure we are able to automate the deploy of the full system on every successful build and run integration, end to end tests and potentially load tests
-* Ensure we have a system to automatically apply and deploy security patches, bug fixes in a safe and timely manner
+_Ensure that the CI builds are triggering off of every commit (know Bamboo, GoCD, Jenkins etc...)_
 
-# Contact
-* [GitHub](https://github.com/srkiNZ84)
-* [Twitter](https://twitter.com/srkiNZ)
-* [LinkedIn](https://www.linkedin.com/in/srdandukic/)
-* [Blog](https://blog.dukic.co.nz)
+_Ensure we are able to automate the deploy of the full system on every successful build and run integration, end to end tests and potentially load tests_
 
-# About this site
+_Ensure we have a system to automatically apply and deploy security patches, bug fixes in a safe and timely manner_
+
+
+## Contact
+[GitHub](https://github.com/srkiNZ84)
+
+[Twitter](https://twitter.com/srkiNZ)
+
+[LinkedIn](https://www.linkedin.com/in/srdandukic/)
+
+[Blog](https://blog.dukic.co.nz)
+
+## About this site
 
 This site was generated using [Hugo](https://gohugo.io/) and is being auto deployed from "master" using [TravisCI](https://travis-ci.org/) as can be seen [here](https://travis-ci.org/srkiNZ84/srkinz84.github.io).
