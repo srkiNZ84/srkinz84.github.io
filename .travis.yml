@@ -12,6 +12,7 @@ script:
   - mkdir public/src
   - shopt -s extglob
   - cp -R ./!(public) public/src/
+  - cp ../.travis.yml public/src/
 
 # Deploy to GitHub Pages
 deploy:
@@ -19,5 +20,6 @@ deploy:
   skip_cleanup: true
   local_dir: public
   github_token: $SERGE_GH_TOKEN
+  target_branch: master
   on:
     branch: master
