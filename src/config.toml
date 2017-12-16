@@ -1,0 +1,4 @@
+baseURL = "https://srkinz84.github.io/"
+languageCode = "en-us"
+title = "Srđan's New Hugo Site"
+theme = "ananke"
