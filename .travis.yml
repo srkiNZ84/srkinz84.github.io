@@ -1,0 +1,25 @@
+install:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.tar.gz
+  - tar xvfz hugo_0.31.1_Linux-64bit.tar.gz
+  - mv hugo src/
+  - rm -rf public
+
+# Build the website
+script:
+  - cd src
+  - ./hugo version
+  - ./hugo
+  - mkdir public/src
+  - shopt -s extglob
+  - cp -R ./!(public) public/src/
+  - cp ../.travis.yml public/
+
+# Deploy to GitHub Pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  github_token: $SERGE_GH_TOKEN
+  target_branch: master
+  on:
+    branch: master
