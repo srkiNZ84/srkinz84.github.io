@@ -9,10 +9,10 @@ script:
   - cd src
   - ./hugo version
   - ./hugo
-  - mkdir public/src
-  - shopt -s extglob
-  - cp -R ./!(public) public/src/
-  - cp ../.travis.yml public/
+    #- mkdir public/src
+    #- shopt -s extglob
+    #- cp -R ./!(public) public/src/
+    #- cp ../.travis.yml public/
 
 # Deploy to GitHub Pages
 deploy:
@@ -22,4 +22,4 @@ deploy:
   github_token: $SERGE_GH_TOKEN
   target_branch: master
   on:
-    branch: master
+    branch: dev
