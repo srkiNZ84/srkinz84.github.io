@@ -1,17 +1,12 @@
 install:
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.tar.gz
-  - tar xvfz hugo_0.31.1_Linux-64bit.tar.gz
+  - wget -O hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.36/hugo_0.36_Linux-64bit.tar.gz
+  - tar xvfz hugo.tar.gz
   - rm -rf public
 
 # Build the website
 script:
   - ./hugo version
   - ./hugo
-  - ls -al
-    #- mkdir public/src
-    #- shopt -s extglob
-    #- cp -R ./!(public) public/src/
-    #- cp ../.travis.yml public/
 
 # Deploy to GitHub Pages
 deploy:
