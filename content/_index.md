@@ -5,7 +5,7 @@ description: "Homepage for Srđan (Serge) Ðukić"
 ---
 # About me
 
-I live and work in New Zealand, having moved here in the early 1990's. For money (and sometimes for fun) I like to write
+Living and working in New Zealand, having moved here in the early 1990's. For money (and sometimes for fun) I like to write
 "Infrastructure as Code" as well as work in software engineering teams to ensure that the applications we're producing
 are operable (configurable, monitorable, log useful messages, scalable, resilient, upgradable etc...).
 
@@ -29,4 +29,4 @@ _Ensure we have a system to automatically apply and deploy security patches, bug
 
 ## About this site
 
-This site was generated using [Hugo](https://gohugo.io/) and is being auto deployed from "master" using [TravisCI](https://travis-ci.org/) as can be seen [here](https://travis-ci.org/srkiNZ84/srkinz84.github.io).
+This site was generated using [Hugo](https://gohugo.io/), is hosted by [GitHub Pages](https://pages.github.com/) and is being auto deployed from "master" using [TravisCI](https://travis-ci.org/) as can be seen [here](https://travis-ci.org/srkiNZ84/srkinz84.github.io). If you like it and want to make one yourself, please feel free to look at the [source|https://github.com/srkiNZ84/srkinz84.github.io/tree/dev] (it's on the "dev" branch) and/or go through [the blog post](https://blog.dukic.co.nz/index.php/2018/02/15/using-github-pages-with-hugo-and-travisci/), explaining how it all works.
